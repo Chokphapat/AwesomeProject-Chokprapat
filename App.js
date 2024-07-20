@@ -19,6 +19,7 @@ import { View } from 'react-native';
 import Greeting from './components/Greeting';
 import Travel from './screens/week3/Travel';
 import Resort from './screens/week3/Resort';
+import Health from './screens/week5/Health';
 
 export default function App(){
     return (
@@ -42,6 +43,7 @@ export default function App(){
       //   <Greeting name='Valeera' />
       // </View>
       // <Travel />
-      <Resort/>
+      // <Resort/>
+      <Health/>
     );
 }
